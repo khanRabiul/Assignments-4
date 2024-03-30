@@ -1,0 +1,56 @@
+/*  Mobile */
+@media only screen and (max-width: 725px) {
+    .container{
+        width: min(95%);
+        margin-inline: auto;
+    }
+    .menu {
+        display: none;
+    }
+    /*  Hero Section    */
+    .hero {
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        max-width: 100%;
+    }
+    .hero-text {
+        max-width: 100%;
+    }
+
+    /*  works card  */
+    .work-cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .about-flex{
+        flex-direction: column-reverse;
+    }
+ 
+    #services .heading{
+        text-align: center;
+    }
+    .popular-cards {
+        flex-direction: column;
+    }
+    #subscribe .flex {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    #subscribe form{
+        margin-bottom: 1rem;
+    }
+    .blu .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+  }
+  
+  /* Mobile styles */
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+  }
